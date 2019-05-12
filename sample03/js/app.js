@@ -16,7 +16,7 @@ var constraints = {
   audio: false,
   video: {
     // スマホのバックカメラを使用
-    facingMode: 'environment'
+    facingMode: 'user'
   }
 };
 var track = new clm.tracker({
